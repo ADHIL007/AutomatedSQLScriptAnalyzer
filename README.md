@@ -54,7 +54,7 @@ Built on .NET Framework 4.6+, this extension embeds directly in Visual Studio 20
 
 - **Visual Studio 2017**  
 - **.NET Framework 4.6 or higher**  
-- **OpenAI API Key** (optional; enables AI‑powered analysis)
+- **OpenAI API Key** 
 
 ### Installation
 
