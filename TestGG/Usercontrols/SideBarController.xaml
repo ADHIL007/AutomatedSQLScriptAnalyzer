@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="TestGG.Usercontrols.SideBarController"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="70"
+             x:Name="NavControl">
+    <UserControl.Resources>
+        <!-- Button Style -->
+        <Style TargetType="Button" x:Key="SidebarButtonStyle">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Margin" Value="0,10,0,10" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="50">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!-- Hover Effect -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FFEEEEEE" />
+                            </Trigger>
+                            <!-- Pressed Effect -->
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FFD3D3D3" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Width="60" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <StackPanel>
+            <!-- Home Button -->
+            <Button x:Name="HomeBtn" Style="{StaticResource SidebarButtonStyle}" Click="HomeButton_Click" ToolTip="Home" Height="50" Width="50">
+                <Image Source="/TestGG;component/Resources/Assets/home_app_logo_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png" Width="34" Height="34" />
+            </Button>
+
+            <!-- Code Button -->
+            <Button  x:Name="CodeBtn" Style="{StaticResource SidebarButtonStyle}" Click="CodeButton_Click" ToolTip="Code" Height="50" Width="50" >
+                <Image Source="/TestGG;component/Resources/Assets/code_24dp_EA33F7_FILL0_wght400_GRAD0_opsz24.png" Width="34" Height="34" />
+            </Button>
+
+            <!-- Settings Button -->
+            <Button  x:Name="SettingsBtn"  Style="{StaticResource SidebarButtonStyle}" Click="SettingsButton_Click" ToolTip="Settings" Height="50" Width="50">
+                <Image Source="/TestGG;component/Resources/Assets/settings_24dp_75FBFD_FILL0_wght400_GRAD0_opsz24.png" Width="34" Height="34" />
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

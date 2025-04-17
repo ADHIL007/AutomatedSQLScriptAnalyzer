@@ -1,0 +1,22 @@
+﻿<Window x:Class="TestGG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TestGG"
+        xmlns:local1="clr-namespace:TestGG.Usercontrols"
+        Title="Sql Analyzer" Height="450" Width="800"
+        ResizeMode="CanResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <!-- Sidebar fixed width -->
+            <ColumnDefinition Width="*" />
+            <!-- Main content takes the rest -->
+        </Grid.ColumnDefinitions>
+
+     
+        <local1:SideBarController Grid.Column="0" x:Name="SideBar" />
+
+      
+        <Frame Grid.Column="1" x:Name="MainFrame" NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>

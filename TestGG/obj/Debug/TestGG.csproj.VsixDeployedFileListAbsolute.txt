@@ -1,0 +1,17 @@
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\TestGG.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\TestGG.pdb
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\ICSharpCode.AvalonEdit.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\MaterialDesignColors.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\MaterialDesignThemes.Wpf.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\System.Buffers.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\System.Memory.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\System.Numerics.Vectors.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\System.Runtime.CompilerServices.Unsafe.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\System.Text.Encodings.Web.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\System.Text.Json.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\System.Threading.Tasks.Extensions.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\WpfAnimatedGif.dll
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\TestGG.pkgdef
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\createTemplateManifests.cache
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\TestGG\\extension.vsixmanifest
