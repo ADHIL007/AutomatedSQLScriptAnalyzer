@@ -1,6 +1,6 @@
 # Automated SQL Script Analyzer (VSIX Extension for MSSQL)
 
-> A Visual Studio 2017 extension that parses, analyzes, and optimizes large T‑SQL scripts using sliding‑window parsing and OpenAI integration.
+> A MSSQL Server extension that analyzes, and optimizes large T‑SQL scripts .
 
 ---
 
