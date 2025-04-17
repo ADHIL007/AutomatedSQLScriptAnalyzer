@@ -13,7 +13,7 @@ The **Automated SQL Script Analyzer** is a VSIX extension for Microsoft SQL Serv
 - Apply AI‑powered quick‑fixes and optimizations  
 - (WIP) Connect to a live database to validate schema, statistics and context  
 
-Built on .NET Framework 4.6+, this extension embeds directly in Visual Studio 2017 and leverages OpenAI to deliver contextual insights and code rewrites.
+Built on .NET Framework 4.6+, this extension developed with VS 2017 (best compatible) and leverages OpenAI to deliver contextual insights and code rewrites.
 
 ---
 
